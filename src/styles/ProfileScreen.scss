@@ -1,0 +1,57 @@
+.profileScreen {
+    height: 100vh;
+    color: white;
+
+    &_body {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 8%;
+        max-width: 800px;
+    }
+
+    &_body > h1 {
+        font-size: 60px;
+        font-weight: 400;
+        border-bottom: 1px solid grey;
+        margin-bottom: 28px;
+        
+    }
+
+    &_info {
+        display: flex;
+    }
+
+
+    &_info > img {
+        height: 100px;
+    }
+
+    &_details {
+        color: white;
+        margin-left: 25px;
+        flex: 1;
+    }
+
+    &_details > h2 {
+        background-color: grey;
+        padding: 15px;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+
+
+    &_signOut {
+        padding: 10px 20px;
+        font-size: 1rem;
+        margin-top: 2%;
+        width: 100%;
+        color: white;
+        background-color: red;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+    }
+}

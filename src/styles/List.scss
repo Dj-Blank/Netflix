@@ -1,0 +1,22 @@
+.watchlist {
+    padding: 30px 0;
+
+    &_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    
+    &_heading {
+        color: var(--primary);
+        margin: 0;
+    }
+
+    &_grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-column-gap: 1em;
+        grid-row-gap: 1em;
+    }
+}
